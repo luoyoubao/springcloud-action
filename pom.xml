@@ -6,9 +6,14 @@
 
     <groupId>com.quancheng</groupId>
     <artifactId>springcloud-action</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
     <modules>
         <module>./eureka-server</module>
+        <module>./user-service</module>
+        <module>./gateway-service</module>
+        <module>ribbon-client</module>
+        <module>turbineservice</module>
     </modules>
 </project>

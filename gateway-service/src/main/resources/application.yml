@@ -1,0 +1,18 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: zuul-server
+#zuul:
+#  routes:
+#    user:
+#      ## url: http://localhost:8081
+#      path: /user/**
+#      service-id: user-service
+#      stripPrefix: true
+#  retryable: true  #是否开启重试功能
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka.didispace.com/eureka/
+    enabled: true
